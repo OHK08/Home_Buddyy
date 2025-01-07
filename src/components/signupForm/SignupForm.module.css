@@ -1,0 +1,106 @@
+/* General container styles */
+.form-container {
+    background-color: #f9f9f9; /* Light background for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto; /* Center align */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form label styles */
+  .ant-form-item-label > label {
+    font-weight: 500;
+    color: #333; /* Darker text for better readability */
+    font-size: 14px;
+  }
+  
+  /* Input fields */
+  .ant-input {
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .ant-input:focus,
+  .ant-input:hover {
+    border-color: #1890ff; /* Matches Ant Design primary color */
+    box-shadow: 0 0 5px rgba(24, 144, 255, 0.3);
+  }
+  
+  /* Password fields */
+  .ant-input-password {
+    border-radius: 4px;
+  }
+  
+  /* Select field */
+  .ant-select-selector {
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  .ant-btn {
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ant-btn:hover {
+    background-color: #40a9ff; /* Hover color */
+    border-color: #40a9ff;
+    color: #fff;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  /* Checkbox */
+  .ant-checkbox-wrapper {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .ant-checkbox-wrapper a {
+    color: #1890ff;
+    text-decoration: underline;
+  }
+  
+  .ant-checkbox-wrapper a:hover {
+    color: #40a9ff;
+  }
+  
+  /* Captcha fields */
+  .captcha-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Error messages */
+  .ant-form-item-explain {
+    color: #ff4d4f; /* Red for error messages */
+    font-size: 12px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    .ant-form-item-label > label {
+      font-size: 13px;
+    }
+  
+    .ant-btn {
+      font-size: 14px;
+    }
+  }
+  
